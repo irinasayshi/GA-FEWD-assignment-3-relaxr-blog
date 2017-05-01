@@ -12,6 +12,12 @@
 		<link rel="stylesheet" href="css/style.css">
 		<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,600,700,800">
 
+		<script type="text/javascript">
+			function signupAlert() {
+    		alert("We're Not Ready For Sign-Ups...Yet");
+			}
+		</script>
+
 	</head>
 	<body>
 		<header class="header">
@@ -97,7 +103,7 @@
 							<a href="#">Learn More</a>
 						</div>
 						<div class="ad-space">
-							<h1 class="right-menu-title">
+							<h1 class="ad-unit">
 								Ad Unit
 							</h1>
 						</div>
@@ -107,11 +113,32 @@
 		</div>
 			<section class="yellow-signup">
 				<div class="signup-box">
-					<a href="#">Sign Up Now!</a>
+					<a onclick="signupAlert()" href="#">Sign Up Now!</a>
 				</div>
 			</section>
 			<footer>
-				&copy; Footer Goes Here
+				<div>
+					<h1 class="site-footer">
+						Relaxr
+					</h1>
+					<section class="social-media">
+						<span class="twitter">
+							<a href="#">
+								<img src="images/twitter.png">
+							</a>
+						</span>
+						<span class="facebook">
+							<a href="#">
+								<img src="images/facebook.png">
+							</a>
+						</span>
+					</section>
+					<section class="copyright">
+						<h3>
+							Copyright 2015. Relaxr.
+						</h3>
+					</section>
+				</div>
 			</footer>
 	</body>
 </html>

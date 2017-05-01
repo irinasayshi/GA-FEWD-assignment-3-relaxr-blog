@@ -225,6 +225,8 @@ header {
 
 .ad-space h1 {
   padding-top: 30px;
+  font-size: 32px;
+  font-weight: 600;
 }
 
 /* YELLOW CTA */
@@ -257,8 +259,52 @@ header {
 
 footer {
   clear: both;
-  height: 200px;
+  height: 240px;
   background-color: #121212;
+}
+
+.site-footer {
+  font-weight: 800;
+  color: #f9e42e;
+  font-size: 24px;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+.social-media {
+  text-align: center;
+  margin-top: 15px;
+}
+
+/*.social-media a {
+  text-align: center;
+  padding: 8px;
+}*/
+
+.twitter {
+  padding-right: 20px;
+  padding-bottom: 50px;
+}
+
+footer .copyright {
+  text-align: center;
+  color: white;
+  font-size: 9px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  bottom: 0;
+  letter-spacing: 1px;
+}
+
+footer .twitter {
+  width: 43px;
+  display: inline-block;
+}
+
+footer .facebook {
+  width: 43px;
+  display: inline-block;
 }
 
 /******************************************
