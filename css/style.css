@@ -83,6 +83,10 @@ header {
   font-size: 45px;
 }
 
+.title a {
+  color: white;
+}
+
 .header-items {
   padding-top: 35px;
 }
@@ -98,27 +102,27 @@ header {
 
 /* SET MARGIN PER NAV ITEM TO FIT WITHIN THE SCREEN*/
 
-.nav-links-about {
+#nav-links-about {
   width: 69px;
   margin-right: 25px;
 }
 
-.nav-links-faq {
+#nav-links-faq {
   width: 50px;
   margin-right: 25px;
 }
 
-.nav-links-team {
+#nav-links-team {
   width: 61px;
   margin-right: 25px;
 }
 
-.nav-links-contact {
+#nav-links-contact {
   width: 135px;
   margin-right: 25px;
 }
 
-.nav-links-blog {
+#nav-links-blog {
   width: 54px;
 }
 
@@ -195,6 +199,14 @@ header {
   font-weight: 800;
 }
 
+.categories-search {
+  font-size: 24px;
+}
+
+.about-menu {
+  padding-top: 75px;
+}
+
 .about-relaxr {
   font-size: 22px;
   font-weight: 100;
@@ -208,6 +220,7 @@ header {
   height: 550px;
   background-color: white;
   text-align: center;
+  margin-top: 67px;
 }
 
 .ad-space h1 {
@@ -220,6 +233,24 @@ header {
   clear: both;
   background-color: #f9e42e;
   height: 120px;
+  padding-top: 25px;
+  text-align: center;
+}
+
+.signup-box {
+  width: 283px;
+  background-color: #033048;
+  border-radius: 5px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin: auto;
+}
+
+.yellow-signup a {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 24px;
+  color: white;
 }
 
 /* FOOTER */
